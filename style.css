@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+.img-container {
+  height: 180px;
+  width: 100%;
+  background: linear-gradient(to left, #9f0fff, #b50070);
+  display: flex;
+  justify-content: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.img-container img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-top: 30px;
+}
+
+.card-title {
+  margin-top: 50px;
+  font-size: 28px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.card-desc {
+  width: 90%;
+  height: 70px;
+  text-align: justify;
+  overflow: hidden;
+  white-space: wrap;
+  text-overflow: ellipsis;
+  margin-bottom: 20px;
+}
+
+.card-socials {
+  padding: 10px 20px;
+  width: 100%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 70px;
+  border-top: 1px solid #000;
+}
+
+.card-socials ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 40px;
+}
+
+.card-socials ul li {
+  list-style: none;
+  padding: 5px;
+}
+
+.card-socials ul li a {
+  text-decoration: none;
+  padding: 5px;
+  color: #000;
+}
+
+.fb {
+  font-size: 24px;
+  background-color: #1877f2;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.insta {
+  font-size: 24px;
+  background:
+    radial-gradient(
+      circle farthest-corner at 35% 90%,
+      #fec564,
+      transparent 50%
+    ),
+    radial-gradient(circle farthest-corner at 0 100%, #fed373, transparent 50%),
+    radial-gradient(circle farthest-corner at 0 0, #5258cf, transparent 50%),
+    radial-gradient(circle farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(
+      circle farthest-corner at 100% 100%,
+      #d42a81,
+      transparent 50%
+    ),
+    linear-gradient(
+      #6559ca,
+      #bc318f 30%,
+      #e33f5f 50%,
+      #f77638 70%,
+      #fec665 100%
+    );
+
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.lin {
+  font-size: 24px;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 3px;
+  background-color: #0077B5;
+}
